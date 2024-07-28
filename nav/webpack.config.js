@@ -2,7 +2,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 module.exports = {
   output: {
-    publicPath: "http://localhost:8081/",
+    publicPath: "http://localhost:5001/",
   },
 
   resolve: {
@@ -10,7 +10,7 @@ module.exports = {
   },
 
   devServer: {
-    port: 8081,
+    port: 5001,
   },
 
   module: {
