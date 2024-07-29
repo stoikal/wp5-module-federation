@@ -27,9 +27,9 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "nav",
+      name: "remote1",
       filename: "remoteEntry.js",
-      library: { type: "var", name: "nav" },
+      library: { type: "var", name: "remote1" },
       remotes: {},
       exposes: {
         "./HelloWorld": "./src/HelloWorld",

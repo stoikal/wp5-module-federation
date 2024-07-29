@@ -43,7 +43,7 @@ module.exports = {
       library: { type: "var", name: "starter" },
       filename: "remoteEntry.js",
       remotes: {
-        nav: "nav"
+        remote1: "remote1"
       },
       exposes: {},
       shared: require("./package.json").dependencies,

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-import HelloWorld from "nav/HelloWorld";
+import HelloWorld from "remote1/HelloWorld";
 
 const App = () => (
   <div>
